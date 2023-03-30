@@ -84,6 +84,21 @@ body {
   display: none;
 }
 
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sticky .section-hero {
+  margin-top: 6.4rem;
+}
+
 /* ***********
 GENERAL COMPONENTS
 *************/
@@ -203,7 +218,7 @@ strong {
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
-  height: 9.6rem;
+  height: 6.4rem;
   padding: 0 4.8rem;
 }
 
